@@ -19,13 +19,13 @@ Surge
 圈X
 [task_local]
 # 小米运动
-15 17 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true
+32 18 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true
 [rewrite_local]
 # 小米运动获取Token
 ^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js
 Loon
 [Script]
-cron "15 17 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js, tag=小米运动
+cron "32 18 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js, tag=小米运动
 http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js, requires-body=true, timeout=10, tag=小米运动获取Token
  */
 
