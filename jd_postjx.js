@@ -1,3 +1,6 @@
+/*
+20 0 * * *
+*/
 const $ = new Env('京喜农场提交互助码');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
