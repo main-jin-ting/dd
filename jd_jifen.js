@@ -1,3 +1,6 @@
+/*
+0 10 * * *
+*/
 const $ = new Env('积分加油站');
 
 // 抓包地址https://m.jingxi.com/cubeactive/scorestation/getreward?
