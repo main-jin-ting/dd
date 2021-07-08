@@ -1,3 +1,6 @@
+/*
+0 * * * *
+*/
 const $ = new Env('东东工厂查询');
 const notify = $.isNode() ? require('./sendNotify_1') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
